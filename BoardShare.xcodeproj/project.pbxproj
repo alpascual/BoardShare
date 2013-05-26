@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7606F742151981C10021E320 /* NetworkSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7606F740151981C10021E320 /* NetworkSearchViewController.m */; };
+		7606F743151981C10021E320 /* NetworkSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7606F741151981C10021E320 /* NetworkSearchViewController.xib */; };
+		76329B3B1751BD0700ED66CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76329B3A1751BD0700ED66CE /* Default-568h@2x.png */; };
+		768AE8D4148AEE1500AA9A9C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AE8D3148AEE1500AA9A9C /* MessageUI.framework */; };
+		768AE8D8148AF1D100AA9A9C /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 768AE8D7148AF1D100AA9A9C /* Wood.jpg */; };
+		768AE8DA148AF24100AA9A9C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AE8D9148AF24100AA9A9C /* iAd.framework */; };
+		768AE8DC148AF5A100AA9A9C /* paint1.png in Resources */ = {isa = PBXBuildFile; fileRef = 768AE8DB148AF5A100AA9A9C /* paint1.png */; };
+		768AE8DE148B2F5100AA9A9C /* iPadBoardShareController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768AE8DD148B2F5100AA9A9C /* iPadBoardShareController.xib */; };
+		768EDE09148C73D500AD9089 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 768EDE06148C73D500AD9089 /* Icon-72.png */; };
+		768EDE0A148C73D500AD9089 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 768EDE07148C73D500AD9089 /* Icon.png */; };
+		768EDE0B148C73D500AD9089 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768EDE08148C73D500AD9089 /* Icon@2x.png */; };
+		76BAE5E21485EF3C00953C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BAE5E11485EF3C00953C39 /* UIKit.framework */; };
+		76BAE5E41485EF3C00953C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BAE5E31485EF3C00953C39 /* Foundation.framework */; };
+		76BAE5E61485EF3C00953C39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BAE5E51485EF3C00953C39 /* CoreGraphics.framework */; };
+		76BAE5EC1485EF3C00953C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76BAE5EA1485EF3C00953C39 /* InfoPlist.strings */; };
+		76BAE5EE1485EF3C00953C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE5ED1485EF3C00953C39 /* main.m */; };
+		76BAE5F21485EF3C00953C39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE5F11485EF3C00953C39 /* AppDelegate.m */; };
+		76BAE5F51485EF3C00953C39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE5F41485EF3C00953C39 /* ViewController.m */; };
+		76BAE5F81485EF3C00953C39 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BAE5F61485EF3C00953C39 /* ViewController_iPhone.xib */; };
+		76BAE5FB1485EF3C00953C39 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BAE5F91485EF3C00953C39 /* ViewController_iPad.xib */; };
+		76BAE6111485EFF700953C39 /* BezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE6031485EFF700953C39 /* BezierCurve.m */; };
+		76BAE6121485EFF700953C39 /* CatmullRomSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE6051485EFF700953C39 /* CatmullRomSpline.m */; };
+		76BAE6131485EFF700953C39 /* CubicBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE6081485EFF700953C39 /* CubicBezierCurve.m */; };
+		76BAE6141485EFF700953C39 /* LinearBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE60A1485EFF700953C39 /* LinearBezierCurve.m */; };
+		76BAE6151485EFF700953C39 /* NSArray_PointArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE60C1485EFF700953C39 /* NSArray_PointArray.m */; };
+		76BAE6161485EFF700953C39 /* QuadraticBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE60E1485EFF700953C39 /* QuadraticBezierCurve.m */; };
+		76BAE6171485EFF700953C39 /* Spline.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE6101485EFF700953C39 /* Spline.m */; };
+		76BAE61B1485F0C800953C39 /* BoardShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BAE6191485F0C800953C39 /* BoardShareController.m */; };
+		76BAE61C1485F0C800953C39 /* BoardShareController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BAE61A1485F0C800953C39 /* BoardShareController.xib */; };
+		76BAE61E1485F74A00953C39 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BAE61D1485F74A00953C39 /* GameKit.framework */; };
+		76E953CD151C314F006383B9 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E953CC151C314F006383B9 /* TCPServer.m */; };
+		76E953D2152014E4006383B9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E953D1152014E4006383B9 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7606F73F151981C10021E320 /* NetworkSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSearchViewController.h; sourceTree = "<group>"; };
+		7606F740151981C10021E320 /* NetworkSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSearchViewController.m; sourceTree = "<group>"; };
+		7606F741151981C10021E320 /* NetworkSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkSearchViewController.xib; sourceTree = "<group>"; };
+		76329B3A1751BD0700ED66CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		768AE8D3148AEE1500AA9A9C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		768AE8D7148AF1D100AA9A9C /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wood.jpg; path = Resources/Wood.jpg; sourceTree = "<group>"; };
+		768AE8D9148AF24100AA9A9C /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		768AE8DB148AF5A100AA9A9C /* paint1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paint1.png; path = Resources/paint1.png; sourceTree = "<group>"; };
+		768AE8DD148B2F5100AA9A9C /* iPadBoardShareController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadBoardShareController.xib; sourceTree = "<group>"; };
+		768EDE06148C73D500AD9089 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		768EDE07148C73D500AD9089 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		768EDE08148C73D500AD9089 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		76BAE5DD1485EF3C00953C39 /* BoardShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BAE5E11485EF3C00953C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76BAE5E31485EF3C00953C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76BAE5E51485EF3C00953C39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76BAE5E91485EF3C00953C39 /* BoardShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoardShare-Info.plist"; sourceTree = "<group>"; };
+		76BAE5EB1485EF3C00953C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76BAE5ED1485EF3C00953C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76BAE5EF1485EF3C00953C39 /* BoardShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoardShare-Prefix.pch"; sourceTree = "<group>"; };
+		76BAE5F01485EF3C00953C39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76BAE5F11485EF3C00953C39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76BAE5F31485EF3C00953C39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76BAE5F41485EF3C00953C39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76BAE5F71485EF3C00953C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		76BAE5FA1485EF3C00953C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		76BAE6021485EFF700953C39 /* BezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierCurve.h; path = BoardShare/spline/BezierCurve.h; sourceTree = "<group>"; };
+		76BAE6031485EFF700953C39 /* BezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierCurve.m; path = BoardShare/spline/BezierCurve.m; sourceTree = "<group>"; };
+		76BAE6041485EFF700953C39 /* CatmullRomSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatmullRomSpline.h; path = BoardShare/spline/CatmullRomSpline.h; sourceTree = "<group>"; };
+		76BAE6051485EFF700953C39 /* CatmullRomSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatmullRomSpline.m; path = BoardShare/spline/CatmullRomSpline.m; sourceTree = "<group>"; };
+		76BAE6061485EFF700953C39 /* CGPointArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPointArithmetic.h; path = BoardShare/spline/CGPointArithmetic.h; sourceTree = "<group>"; };
+		76BAE6071485EFF700953C39 /* CubicBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubicBezierCurve.h; path = BoardShare/spline/CubicBezierCurve.h; sourceTree = "<group>"; };
+		76BAE6081485EFF700953C39 /* CubicBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CubicBezierCurve.m; path = BoardShare/spline/CubicBezierCurve.m; sourceTree = "<group>"; };
+		76BAE6091485EFF700953C39 /* LinearBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearBezierCurve.h; path = BoardShare/spline/LinearBezierCurve.h; sourceTree = "<group>"; };
+		76BAE60A1485EFF700953C39 /* LinearBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinearBezierCurve.m; path = BoardShare/spline/LinearBezierCurve.m; sourceTree = "<group>"; };
+		76BAE60B1485EFF700953C39 /* NSArray_PointArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSArray_PointArray.h; path = BoardShare/spline/NSArray_PointArray.h; sourceTree = "<group>"; };
+		76BAE60C1485EFF700953C39 /* NSArray_PointArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArray_PointArray.m; path = BoardShare/spline/NSArray_PointArray.m; sourceTree = "<group>"; };
+		76BAE60D1485EFF700953C39 /* QuadraticBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuadraticBezierCurve.h; path = BoardShare/spline/QuadraticBezierCurve.h; sourceTree = "<group>"; };
+		76BAE60E1485EFF700953C39 /* QuadraticBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuadraticBezierCurve.m; path = BoardShare/spline/QuadraticBezierCurve.m; sourceTree = "<group>"; };
+		76BAE60F1485EFF700953C39 /* Spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spline.h; path = BoardShare/spline/Spline.h; sourceTree = "<group>"; };
+		76BAE6101485EFF700953C39 /* Spline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Spline.m; path = BoardShare/spline/Spline.m; sourceTree = "<group>"; };
+		76BAE6181485F0C800953C39 /* BoardShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardShareController.h; sourceTree = "<group>"; };
+		76BAE6191485F0C800953C39 /* BoardShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardShareController.m; sourceTree = "<group>"; };
+		76BAE61A1485F0C800953C39 /* BoardShareController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardShareController.xib; sourceTree = "<group>"; };
+		76BAE61D1485F74A00953C39 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		76E953CB151C314F006383B9 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		76E953CC151C314F006383B9 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		76E953D1152014E4006383B9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76BAE5DA1485EF3C00953C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E953D2152014E4006383B9 /* MediaPlayer.framework in Frameworks */,
+				768AE8DA148AF24100AA9A9C /* iAd.framework in Frameworks */,
+				768AE8D4148AEE1500AA9A9C /* MessageUI.framework in Frameworks */,
+				76BAE61E1485F74A00953C39 /* GameKit.framework in Frameworks */,
+				76BAE5E21485EF3C00953C39 /* UIKit.framework in Frameworks */,
+				76BAE5E41485EF3C00953C39 /* Foundation.framework in Frameworks */,
+				76BAE5E61485EF3C00953C39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768AE8D6148AF1BF00AA9A9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				768EDE06148C73D500AD9089 /* Icon-72.png */,
+				768EDE07148C73D500AD9089 /* Icon.png */,
+				768EDE08148C73D500AD9089 /* Icon@2x.png */,
+				768AE8DB148AF5A100AA9A9C /* paint1.png */,
+				768AE8D7148AF1D100AA9A9C /* Wood.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76BAE5D21485EF3C00953C39 = {
+			isa = PBXGroup;
+			children = (
+				76329B3A1751BD0700ED66CE /* Default-568h@2x.png */,
+				76E953D1152014E4006383B9 /* MediaPlayer.framework */,
+				768AE8D9148AF24100AA9A9C /* iAd.framework */,
+				768AE8D3148AEE1500AA9A9C /* MessageUI.framework */,
+				76BAE61D1485F74A00953C39 /* GameKit.framework */,
+				76BAE6011485EFD400953C39 /* spline */,
+				76BAE5E71485EF3C00953C39 /* BoardShare */,
+				76BAE5E01485EF3C00953C39 /* Frameworks */,
+				76BAE5DE1485EF3C00953C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76BAE5DE1485EF3C00953C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76BAE5DD1485EF3C00953C39 /* BoardShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76BAE5E01485EF3C00953C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76BAE5E11485EF3C00953C39 /* UIKit.framework */,
+				76BAE5E31485EF3C00953C39 /* Foundation.framework */,
+				76BAE5E51485EF3C00953C39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76BAE5E71485EF3C00953C39 /* BoardShare */ = {
+			isa = PBXGroup;
+			children = (
+				76E953CA151C314F006383B9 /* TcpIP */,
+				768AE8D6148AF1BF00AA9A9C /* Resources */,
+				76BAE5F01485EF3C00953C39 /* AppDelegate.h */,
+				76BAE5F11485EF3C00953C39 /* AppDelegate.m */,
+				76BAE5F31485EF3C00953C39 /* ViewController.h */,
+				76BAE5F41485EF3C00953C39 /* ViewController.m */,
+				76BAE5F61485EF3C00953C39 /* ViewController_iPhone.xib */,
+				76BAE5F91485EF3C00953C39 /* ViewController_iPad.xib */,
+				76BAE5E81485EF3C00953C39 /* Supporting Files */,
+				76BAE6181485F0C800953C39 /* BoardShareController.h */,
+				76BAE6191485F0C800953C39 /* BoardShareController.m */,
+				76BAE61A1485F0C800953C39 /* BoardShareController.xib */,
+				768AE8DD148B2F5100AA9A9C /* iPadBoardShareController.xib */,
+				7606F73F151981C10021E320 /* NetworkSearchViewController.h */,
+				7606F740151981C10021E320 /* NetworkSearchViewController.m */,
+				7606F741151981C10021E320 /* NetworkSearchViewController.xib */,
+			);
+			path = BoardShare;
+			sourceTree = "<group>";
+		};
+		76BAE5E81485EF3C00953C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76BAE5E91485EF3C00953C39 /* BoardShare-Info.plist */,
+				76BAE5EA1485EF3C00953C39 /* InfoPlist.strings */,
+				76BAE5ED1485EF3C00953C39 /* main.m */,
+				76BAE5EF1485EF3C00953C39 /* BoardShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76BAE6011485EFD400953C39 /* spline */ = {
+			isa = PBXGroup;
+			children = (
+				76BAE6021485EFF700953C39 /* BezierCurve.h */,
+				76BAE6031485EFF700953C39 /* BezierCurve.m */,
+				76BAE6041485EFF700953C39 /* CatmullRomSpline.h */,
+				76BAE6051485EFF700953C39 /* CatmullRomSpline.m */,
+				76BAE6061485EFF700953C39 /* CGPointArithmetic.h */,
+				76BAE6071485EFF700953C39 /* CubicBezierCurve.h */,
+				76BAE6081485EFF700953C39 /* CubicBezierCurve.m */,
+				76BAE6091485EFF700953C39 /* LinearBezierCurve.h */,
+				76BAE60A1485EFF700953C39 /* LinearBezierCurve.m */,
+				76BAE60B1485EFF700953C39 /* NSArray_PointArray.h */,
+				76BAE60C1485EFF700953C39 /* NSArray_PointArray.m */,
+				76BAE60D1485EFF700953C39 /* QuadraticBezierCurve.h */,
+				76BAE60E1485EFF700953C39 /* QuadraticBezierCurve.m */,
+				76BAE60F1485EFF700953C39 /* Spline.h */,
+				76BAE6101485EFF700953C39 /* Spline.m */,
+			);
+			name = spline;
+			sourceTree = "<group>";
+		};
+		76E953CA151C314F006383B9 /* TcpIP */ = {
+			isa = PBXGroup;
+			children = (
+				76E953CB151C314F006383B9 /* TCPServer.h */,
+				76E953CC151C314F006383B9 /* TCPServer.m */,
+			);
+			path = TcpIP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76BAE5DC1485EF3C00953C39 /* BoardShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BAE5FE1485EF3C00953C39 /* Build configuration list for PBXNativeTarget "BoardShare" */;
+			buildPhases = (
+				76BAE5D91485EF3C00953C39 /* Sources */,
+				76BAE5DA1485EF3C00953C39 /* Frameworks */,
+				76BAE5DB1485EF3C00953C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardShare;
+			productName = BoardShare;
+			productReference = 76BAE5DD1485EF3C00953C39 /* BoardShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76BAE5D41485EF3C00953C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 76BAE5D71485EF3C00953C39 /* Build configuration list for PBXProject "BoardShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76BAE5D21485EF3C00953C39;
+			productRefGroup = 76BAE5DE1485EF3C00953C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76BAE5DC1485EF3C00953C39 /* BoardShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76BAE5DB1485EF3C00953C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BAE5EC1485EF3C00953C39 /* InfoPlist.strings in Resources */,
+				76BAE5F81485EF3C00953C39 /* ViewController_iPhone.xib in Resources */,
+				76BAE5FB1485EF3C00953C39 /* ViewController_iPad.xib in Resources */,
+				76BAE61C1485F0C800953C39 /* BoardShareController.xib in Resources */,
+				768AE8D8148AF1D100AA9A9C /* Wood.jpg in Resources */,
+				768AE8DC148AF5A100AA9A9C /* paint1.png in Resources */,
+				768AE8DE148B2F5100AA9A9C /* iPadBoardShareController.xib in Resources */,
+				768EDE09148C73D500AD9089 /* Icon-72.png in Resources */,
+				768EDE0A148C73D500AD9089 /* Icon.png in Resources */,
+				768EDE0B148C73D500AD9089 /* Icon@2x.png in Resources */,
+				7606F743151981C10021E320 /* NetworkSearchViewController.xib in Resources */,
+				76329B3B1751BD0700ED66CE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76BAE5D91485EF3C00953C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BAE5EE1485EF3C00953C39 /* main.m in Sources */,
+				76BAE5F21485EF3C00953C39 /* AppDelegate.m in Sources */,
+				76BAE5F51485EF3C00953C39 /* ViewController.m in Sources */,
+				76BAE6111485EFF700953C39 /* BezierCurve.m in Sources */,
+				76BAE6121485EFF700953C39 /* CatmullRomSpline.m in Sources */,
+				76BAE6131485EFF700953C39 /* CubicBezierCurve.m in Sources */,
+				76BAE6141485EFF700953C39 /* LinearBezierCurve.m in Sources */,
+				76BAE6151485EFF700953C39 /* NSArray_PointArray.m in Sources */,
+				76BAE6161485EFF700953C39 /* QuadraticBezierCurve.m in Sources */,
+				76BAE6171485EFF700953C39 /* Spline.m in Sources */,
+				76BAE61B1485F0C800953C39 /* BoardShareController.m in Sources */,
+				7606F742151981C10021E320 /* NetworkSearchViewController.m in Sources */,
+				76E953CD151C314F006383B9 /* TCPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76BAE5EA1485EF3C00953C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BAE5EB1485EF3C00953C39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76BAE5F61485EF3C00953C39 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BAE5F71485EF3C00953C39 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		76BAE5F91485EF3C00953C39 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BAE5FA1485EF3C00953C39 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768EDE0D148C740F00AD9089 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		768EDE0E148C740F00AD9089 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardShare/BoardShare-Prefix.pch";
+				INFOPLIST_FILE = "BoardShare/BoardShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		76BAE5FC1485EF3C00953C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76BAE5FD1485EF3C00953C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76BAE5FF1485EF3C00953C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardShare/BoardShare-Prefix.pch";
+				INFOPLIST_FILE = "BoardShare/BoardShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76BAE6001485EF3C00953C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardShare/BoardShare-Prefix.pch";
+				INFOPLIST_FILE = "BoardShare/BoardShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76BAE5D71485EF3C00953C39 /* Build configuration list for PBXProject "BoardShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BAE5FC1485EF3C00953C39 /* Debug */,
+				76BAE5FD1485EF3C00953C39 /* Release */,
+				768EDE0D148C740F00AD9089 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BAE5FE1485EF3C00953C39 /* Build configuration list for PBXNativeTarget "BoardShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BAE5FF1485EF3C00953C39 /* Debug */,
+				76BAE6001485EF3C00953C39 /* Release */,
+				768EDE0E148C740F00AD9089 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76BAE5D41485EF3C00953C39 /* Project object */;
+}

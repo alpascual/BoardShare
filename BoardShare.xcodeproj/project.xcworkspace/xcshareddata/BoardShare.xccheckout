@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>57BAF566-AC30-4C42-BB4C-552F81C32053</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BoardShare</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0010DAF-531F-4011-90E3-5D53440C0FDD</key>
+		<string>https://github.com/alpascual/BoardShare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BoardShare.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0010DAF-531F-4011-90E3-5D53440C0FDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alpascual/BoardShare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0010DAF-531F-4011-90E3-5D53440C0FDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0010DAF-531F-4011-90E3-5D53440C0FDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BoardShare</string>
+		</dict>
+	</array>
+</dict>
+</plist>
